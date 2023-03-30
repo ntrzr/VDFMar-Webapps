@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#note to bubileq - change this path below
+#i was too lazy to search for a dynamic way
+RewriteRule (.*) /school/bubilek/PasswordGen-API/index.php/$1 [L]
