@@ -10,7 +10,7 @@ Decently secure password generator (32 char length)
 
 # Example usage:
 ```
-http://localhost/school/bubilek/PasswordGen-API/newpass/json
+http://localhost/school/bubilek/PasswordGen-API/newpass/xml
 ```
 
 An output is going to be in either json or XML:
